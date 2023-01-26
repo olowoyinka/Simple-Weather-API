@@ -1,6 +1,3 @@
-using System.Net;
-using Weather.Core.Requests;
-
 namespace Weather.Domain.Interfaces
 {
     public interface IUserService

@@ -1,0 +1,15 @@
+global using System.Net;
+global using Weather.Core.Responses;
+global using Weather.Core.Requests;
+global using Weather.Core.Utilities;
+global using Weather.Domain.Interfaces;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Options;
+global using Weather.Core.Models;
+global using Weather.Data.Repository;
+global using System.Text;
+global using Microsoft.IdentityModel.Tokens;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using Newtonsoft.Json;

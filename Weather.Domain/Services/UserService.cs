@@ -1,18 +1,3 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Net;
-using System.Security.Claims;
-using System.Text;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
-using Weather.Domain.Interfaces;
-using Weather.Core.Models;
-using Weather.Core.Requests;
-using Weather.Core.Responses;
-using Weather.Core.Utilities;
-using Weather.Data.Repository;
-
 namespace Weather.Domain.Service
 {
     public class UserService : IUserService

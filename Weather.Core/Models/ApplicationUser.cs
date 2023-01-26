@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Identity;
-
 namespace Weather.Core.Models
 {
     public class ApplicationUser : IdentityUser

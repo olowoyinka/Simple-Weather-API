@@ -1,7 +1,4 @@
-﻿using Weather.Domain.Interfaces;
-using Weather.Domain.Service;
-
-namespace Weather.API.Installer
+﻿namespace Weather.API.Installer
 {
     public class DomainInstaller : IInstaller
     {

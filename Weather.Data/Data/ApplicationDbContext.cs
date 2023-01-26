@@ -1,8 +1,3 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-using Weather.Core.Models;
-
 namespace Weather.Data.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

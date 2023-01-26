@@ -1,6 +1,4 @@
-﻿using System.Linq.Expressions;
-
-namespace Weather.Data.GenericDB
+﻿namespace Weather.Data.GenericDB
 {
     /// <summary>
     /// Interface for all repositories used to request data from the DB

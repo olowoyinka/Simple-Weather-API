@@ -1,12 +1,10 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace Weather.Core.Models
 {
     public class RefreshToken
     {
         [Key]
         public string Id { get; set; }
-
+        
         public DateTime ExpiryTime { get; set; }
         public DateTime GeneratedTime { get; set; }
 

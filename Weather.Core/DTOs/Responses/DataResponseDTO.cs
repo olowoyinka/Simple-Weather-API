@@ -1,9 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Newtonsoft.Json;
-using System.ComponentModel.DataAnnotations;
-using System.Net;
-
-namespace Weather.Core.Responses
+﻿namespace Weather.Core.Responses
 {
     public abstract class DataResponseAbstractDTO
     {

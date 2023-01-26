@@ -1,10 +1,3 @@
-using System.Net;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
-using Weather.Core.Responses;
-using Weather.Core.Utilities;
-using Weather.Domain.Interfaces;
-
 namespace Weather.Domain.Service
 {
     public class WeatherService : IWeatherService

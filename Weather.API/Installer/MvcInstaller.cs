@@ -1,15 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.OpenApi.Models;
-using System.Reflection;
-using System.Text;
-using Microsoft.AspNetCore.Mvc;
-using System.IO.Compression;
-using Microsoft.AspNetCore.ResponseCompression;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using Weather.Core.Utilities;
-
-namespace Weather.API.Installer
+﻿namespace Weather.API.Installer
 {
     public class MvcInstaller : IInstaller
     {

@@ -1,11 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using Weather.Core.Models;
-using Weather.Data.Data;
-using Weather.Data.Repository;
-
-namespace Weather.API.Installer
+﻿namespace Weather.API.Installer
 {
     public class DbInstaller : IInstaller
     {

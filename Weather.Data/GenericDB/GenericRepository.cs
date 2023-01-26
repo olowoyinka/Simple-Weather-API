@@ -1,8 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
-using Weather.Data.Data;
-
-namespace Weather.Data.GenericDB
+﻿namespace Weather.Data.GenericDB
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {

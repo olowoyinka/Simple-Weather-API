@@ -1,5 +1,3 @@
-using Newtonsoft.Json;
-
 namespace Weather.Core.Responses
 {
     public class WeatherCurrentResponseDTO

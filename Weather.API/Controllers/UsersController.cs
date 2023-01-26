@@ -1,12 +1,3 @@
-using System.Net;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Weather.Domain.Interfaces;
-using Weather.Core.Requests;
-using Weather.Core.Responses;
-using Weather.Core.Utilities;
-
 namespace Weather.API.Controllers
 {
     [ApiController]

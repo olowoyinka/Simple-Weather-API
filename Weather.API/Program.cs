@@ -1,7 +1,3 @@
-using System.Net;
-using Weather.API.Installer;
-using Weather.Core.Responses;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.InstallServicesInAssenmbly(builder.Configuration);
